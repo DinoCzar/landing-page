@@ -9,11 +9,26 @@ body {
 }
 
 .header {
+    color: white;
     height: 535px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 }
 
 .information {
     height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.information-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
 }
 
 .quote {
@@ -27,4 +42,84 @@ body {
 
 .footer {
     height: 100px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header-top, .awesome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.header-top {
+    height: 50px;
+}
+
+.awesome {
+    height: 500px;
+}
+
+.header-logo, .header-links, .awesome-text, .placeholder {
+    width: 400px;
+}
+
+.links {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.header-logo {
+    padding: 10px;
+}
+
+.awesome-text, .placeholder {
+    height: 200px;
+}
+
+.awesome-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+button {
+    width: 100px;
+}
+
+.placeholder {
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rounded {
+    border: 5px solid blue;
+    height: 100px;
+    width: 100px;
+    border-radius: 10px 10px 10px 10px;
+    margin: 10px;
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    text-align: center;
+    margin: 50px;
 }
