@@ -34,14 +34,41 @@ body {
 .quote {
     height: 430px;
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-section, .action {
+    display: flex;
+    align-items: center;
+}
+
+.action-section {
+    height: 350px;
+    justify-content: center;
 }
 
 .action {
-    height: 350px;
+    height: 100px;
+    width: 800px;
+    background-color: #3882F6;
+    border-radius: 10px 10px 10px 10px;
+    justify-content: space-around;
+}
+
+.action-content {
+    display: flex;
+    flex-direction: column;
 }
 
 .footer {
+    color: white;
     height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 ul {
@@ -107,7 +134,7 @@ button {
 }
 
 .rounded {
-    border: 5px solid blue;
+    border: 5px solid #3882F6;
     height: 100px;
     width: 100px;
     border-radius: 10px 10px 10px 10px;
@@ -122,4 +149,17 @@ button {
     width: 100px;
     text-align: center;
     margin: 50px;
+}
+
+.inspire, .thor {
+    width: 500px;
+}
+
+.inspire {
+    font-size: 36px;
+}
+
+.thor {
+    display: flex;
+    justify-content: right;
 }
