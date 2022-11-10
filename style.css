@@ -1,4 +1,5 @@
 body {
+    font-family: 'Roboto', Arial, sans-serif;
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -112,7 +113,7 @@ a {
 }
 
 .header-logo, .header-links, .awesome-text, .placeholder {
-    width: 400px;
+    width: 500px;
 }
 
 .links {
